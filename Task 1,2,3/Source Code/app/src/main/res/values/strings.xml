@@ -15,7 +15,12 @@
     <string name="signup">Sign Up</string>
     <string name="youre_almost_there">Youre almost there....</string>
     <string name="done">Done</string>
-    <string name="contact_info">Contact info</string>
+    <string name="Enter_your_name">Enter your name</string>
     <string name="college">College</string>
     <string name="branch">Branch</string>
+    <string name="contact_info">Contact info</string>
+    <string name="to_be_designed_later">To be designed later</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

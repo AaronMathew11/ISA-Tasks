@@ -47,19 +47,20 @@
         app:layout_constraintVertical_bias="0.969" />
 
     <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="277dp"
-        android:layout_height="43dp"
+        android:id="@+id/e1"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
         android:background="@drawable/round_text"
         android:drawableLeft="@drawable/ic_baseline_local_phone_24"
         android:drawablePadding="15dp"
         android:ems="10"
         android:fontFamily="casual"
         android:hint="@string/contact_info"
+        android:textColor="@color/white"
         android:inputType="number"
         android:paddingLeft="20dp"
         android:textColorHint="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.373"
@@ -68,9 +69,9 @@
         app:layout_constraintVertical_bias="0.356" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress"
-        android:layout_width="277dp"
-        android:layout_height="43dp"
+        android:id="@+id/e2"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
         android:background="@drawable/round_text"
         android:drawableLeft="@drawable/ic_baseline_menu_book_24"
         android:drawablePadding="15dp"
@@ -78,9 +79,10 @@
         android:fontFamily="casual"
         android:hint="@string/college"
         android:inputType="textPostalAddress"
+        android:textColor="@color/white"
         android:paddingLeft="20dp"
         android:textColorHint="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.373"
@@ -89,17 +91,20 @@
         app:layout_constraintVertical_bias="0.486" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress2"
-        android:layout_width="277dp"
-        android:layout_height="43dp"
+        android:id="@+id/e3"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
         android:background="@drawable/round_text"
         android:ems="10"
         android:fontFamily="casual"
         android:hint="@string/branch"
         android:inputType="textPostalAddress"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_alt_route_24"
         android:paddingLeft="20dp"
+        android:drawablePadding="15dp"
         android:textColorHint="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.373"
@@ -108,7 +113,7 @@
         app:layout_constraintVertical_bias="0.609" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn4"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
