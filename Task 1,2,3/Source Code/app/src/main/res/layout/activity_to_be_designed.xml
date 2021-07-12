@@ -7,33 +7,29 @@
     android:background="#212121"
     tools:context=".To_be_designed">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="casual"
-        android:text="@string/to_be_designed_later"
-        android:textColor="@color/white"
-        android:textSize="20dp"
+        android:background="#313131"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.454" />
+        app:menu="@menu/my_menu"
+        app:itemTextColor="#FB6274"
+        app:itemIconTint="#F84E62"/>
 
-    <ImageButton
-        android:id="@+id/ibtn"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="409dp"
+        android:layout_height="673dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024"
-        app:srcCompat="@drawable/profile" />
+        app:navGraph="@navigation/my_nav" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
