@@ -33,7 +33,7 @@ class Login : AppCompatActivity() {
                     val pass= tv_password.text.toString().trim{ it <= ' '}
 
                     // here is the important part..... create an instance for Firebase
-                    FirebaseAuth.getInstance().createUserWithEmailAndPassword(email,pass)
+                    FirebaseAuth.getInstance().signInWithEmailAndPassword(email,pass)
                         .addOnCompleteListener(
                             OnCompleteListener<AuthResult> { task ->
 
